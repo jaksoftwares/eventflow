@@ -16,7 +16,8 @@ import {
   Clock,
   MessageSquare,
   Send,
-  Calendar
+  Calendar,
+  Link
 } from 'lucide-react';
 
 export default function ContactPage() {
@@ -78,7 +79,7 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Have questions about EventFlow? We're here to help. Reach out to our team and we'll get back to you as soon as possible.
+              Have questions about EventFlow? We&apos;re here to help. Reach out to our team and we&apos;ll get back to you as soon as possible.
             </p>
           </div>
 
@@ -239,7 +240,7 @@ export default function ContactPage() {
                     Can I schedule a demo?
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300 text-sm">
-                    Absolutely! We offer personalized demos for potential customers. Select "Sales Inquiry" above and mention you'd like to schedule a demo.
+                    Absolutely! We offer personalized demos for potential customers. Select &quote;Sales Inquiry&quote; above and mention you&apos;d like to schedule a demo.
                   </p>
                 </CardContent>
               </Card>
@@ -264,7 +265,7 @@ export default function ContactPage() {
               Ready to Start Creating Events?
             </h2>
             <p className="text-lg text-purple-100 mb-6 max-w-2xl mx-auto">
-              Don't wait - join thousands of successful event organizers who trust EventFlow
+              Don&apos;t wait - join thousands of successful event organizers who trust EventFlow
             </p>
             <Button size="lg" variant="secondary" asChild>
               <Link href="/register">
